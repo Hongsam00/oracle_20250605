@@ -1,0 +1,3 @@
+SELECT IP
+FROM t_reg2
+WHERE REGEXP_LIKE(IP, '^[172]{3}\.[61]{2}\.[0-9]{3}');

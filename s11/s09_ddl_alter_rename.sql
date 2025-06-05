@@ -1,0 +1,2 @@
+ALTER TABLE dept2_02
+RENAME COLUMN area TO location;

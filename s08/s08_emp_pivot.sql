@@ -1,0 +1,10 @@
+SELECT deptno, 
+	   SUM(DECODE(job, 'CLERK', 1)    ) AS CLERK,
+	   SUM(DECODE(job, 'MANAGER', 1)  ) AS MANAGER,
+	   SUM(DECODE(job, 'PRESIDENT', 1)) AS PRESIDENT,
+	   SUM(DECODE(job, 'ANALYST', 1)  ) AS ANALYST,
+	   SUM(DECODE(job, 'SALESMAN', 1) ) AS SALESMAN
+  FROM emp
+ GROUP BY deptno
+ ORDER BY deptno
+;

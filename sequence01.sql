@@ -1,0 +1,37 @@
+--SEQUENCE 이름: PCWK_SEQ
+--시작값 : 100
+--끝 값  : 120
+--증가값 : 1
+--캐싱은 : 2
+--순환   : NOCYCLE
+--반복 시 시작값 : 90
+
+--CREATE SEQUENCE PCWK_SEQ
+--INCREMENT BY 1
+--START WITH 100
+--MAXVALUE 120
+--CACHE 2
+--CYCLE
+--;
+
+--CREATE TABLE PCWK_ORDER (
+--  ORDER_NUMBER NUMBER(5),
+--  ORDER_NAME VARCHAR2(200 CHAR),
+--  PROD_NAME  VARCHAR2(200 CHAR),
+--  PROD_QTY   NUMBER(5)
+--);
+
+--INSERT INTO pcwk_order VALUES (PCWK_SEQ.NEXTVAL, '이상무','토마토',3);
+
+--col ORDER_NAME for a20
+--col PROD_NAME for a20 
+--SELECT * FROM pcwk_order;
+
+--SELECT PCWK_SEQ.CURRVAL FROM dual;
+
+--INSERT INTO pcwk_order VALUES (PCWK_SEQ.NEXTVAL, '이상무','TESLA',1);
+--
+--col ORDER_NAME for a20
+--col PROD_NAME for a20
+--SELECT * FROM pcwk_orde--r;
+

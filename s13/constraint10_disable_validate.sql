@@ -1,0 +1,8 @@
+--DISABLE VALIDATE 사용하기
+
+--INSERT INTO t_validate VALUES(4,NULL);
+
+--ALTER TABLE t_validate
+--DISABLE VALIDATE CONSTRAINT tv_name_nn;
+
+INSERT INTO t_validate VALUES(4,NULL);

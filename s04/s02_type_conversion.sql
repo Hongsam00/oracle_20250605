@@ -1,0 +1,2 @@
+SELECT 2 + TO_NUMBER('19')
+FROM dual;

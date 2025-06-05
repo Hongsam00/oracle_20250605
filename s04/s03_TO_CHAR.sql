@@ -1,0 +1,3 @@
+-- TO_CHAR 날짜를 문자
+SELECT TO_CHAR(SYSDATE, 'YYYY-MM-DD HH24:MI:SS') AS str_date
+FROM dual;

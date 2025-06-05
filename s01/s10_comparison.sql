@@ -1,0 +1,4 @@
+-- °°´Ù
+SELECT EMPNO, ENAME, JOB, MGR 
+FROM emp
+WHERE job = 'MANAGER';

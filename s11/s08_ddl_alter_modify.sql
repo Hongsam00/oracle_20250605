@@ -1,0 +1,9 @@
+--CREATE TABLE dept2_02 
+--AS
+--SELECT * FROM dept2
+--;
+
+--DESC dept2_02;
+ALTER TABLE dept2_02
+MODIFY area VARCHAR2(60)
+;

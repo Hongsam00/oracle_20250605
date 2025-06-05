@@ -1,0 +1,10 @@
+col employes for a30
+
+SELECT deptno, LISTAGG( ename, ',') WITHIN GROUP(ORDER BY ename DESC) AS employes
+FROM emp
+GROUP BY deptno
+ORDER BY deptno
+;
+--10 CLACK, KING, MILLER
+--20 FORD, JONES, SCOTT,SMITH
+--30 ALLEN, BLAKE, JAMES,TURNER,WARD
